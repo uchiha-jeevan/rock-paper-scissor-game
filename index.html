@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+
+    <h1>Rock, Paper and Scissor Game </h1>
+
+    <div class="min">
+        <div class="cls">
+           <a onclick="rock()" id="rock" href="#">🪨</a>
+           <a onclick="paper()" id="paper" href="#">📰</a>
+           <a onclick="scissor()" id="scissor" href="#">✂️</a>
+        </div>
+        <p id="human"></p>
+        <p id="ai"></p>
+        <h3 id="result"></h3>
+
+        <div class="score">
+            <h2>Score Board</h2>
+            <br>
+            <div class="btn">
+
+                <button value="0">Win's <p id="win">0</p></button>
+
+                <button value="0">Losses <p id="loss">0</p></button>
+
+                <button value="0">Draw <p id="draw">0</p></button>
+
+                <button value="0">Total <p id="total">0</p></button>
+
+            </div>
+            <br>
+            <button onclick="reset()">Reset</button>
+            
+        </div>
+    </div>
+
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
